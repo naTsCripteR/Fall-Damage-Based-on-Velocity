@@ -34,7 +34,7 @@ Humanoid.StateChanged:Connect(function(old, new)
 					ReplicatedStorage.Fire.FallThing:FireServer(dm291,timeR) --- Do Pre Ragdoll Or take damage idk
 				end
 				if Velocity.Y < -1100 then
-					ReplicatedStorage.Fire.Fast________RE_RE_RE_R_E_E__E_E_E_E_E__SPAWM:FireServer(Player)
+					ReplicatedStorage.Fire.AntiCheatRespawn:FireServer(Player,"Reason")
 				end
 				lastdat = Velocity.Y
 				print(Velocity.Y)
